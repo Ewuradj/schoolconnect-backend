@@ -17,7 +17,6 @@ app.use(cors());
 
 
 
-
 // Make database connection
 await mongoose.connect(process.env.MONGO_URI);
 
